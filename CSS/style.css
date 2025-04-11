@@ -1,0 +1,111 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4faff;
+  color: #222;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Layout */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 163, 255, 0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 2rem;
+  color: #00a3ff;
+}
+.title {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+section h2 {
+  color: #00a3ff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #d0edff;
+  padding-bottom: 0.3rem;
+}
+
+/* Skills */
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.skills li {
+  background-color: #e6f6ff;
+  color: #0077b6;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+/* Experience */
+.job {
+  margin-bottom: 1.5rem;
+}
+.job h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.job span {
+  font-size: 0.9rem;
+  color: #777;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.job p {
+  font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+footer a {
+  color: #00a3ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #0077b6;
+  text-decoration: underline;
+}
